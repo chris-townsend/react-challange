@@ -8,8 +8,8 @@ class StatefulGreeting extends React.Component {
             introduction: 'Hello!',
             buttonText: 'Exit!',
         };
-    }
 
+        
     handleClick() {
         this.setState({
             introduction: 'Goodbye!',

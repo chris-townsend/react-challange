@@ -11,11 +11,12 @@ import UseStateWithArrays from './components/UseStateWithArrays';
 import UseStateWithObjects from './components/UseStateWithObjects';
 import UseEffectCounter from './components/UseEffectCounter';
 import UseEffectCounterContainer from './components/UseEffectCounterContainer';
+import HTTPRequests from './components/HTTPRequests';
 
 function App() {
   return (
     <div className='App'>
-        <UseEffectCounterContainer /> 
+        <HTTPRequests /> 
     </div>
   );
 }
